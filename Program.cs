@@ -13,14 +13,9 @@ namespace ConTestingPlayers
             List<pla> plist = new List<pla>
             {
                 new pla{PlayerId=1,PlayerName="Rohit",PlayerTeam="MI"},
-                new pla{PlayerId=2,PlayerName="Sachin",PlayerTeam="MI"},
+                new pla{PlayerId=2,,PlayerTeam="MI"},
                 
-
-
-
             };
-
-
 
             return plist;
         }
