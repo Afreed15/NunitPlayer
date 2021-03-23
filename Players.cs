@@ -15,8 +15,8 @@ namespace ConTestingPlayers
             foreach (var Player in Program.PList())
             {
                 Assert.IsNotNull(Player.PlayerId);
-                Assert.IsNotNull(Player.PlayerName);
-                Assert.IsNotNull(Player.PlayerTeam);
+                Assert.IsNotEmpty(Player.PlayerName);
+                Assert. IsNotEmpty(Player.PlayerTeam);
 
 
 
